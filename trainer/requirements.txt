@@ -1,0 +1,5 @@
+prometheus_client
+mlflow==2.9.2
+pandas
+numpy
+python-dotenv

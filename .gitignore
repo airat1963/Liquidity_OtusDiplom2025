@@ -1,0 +1,50 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+liq-env/
+# Общие
+dist/
+build/
+out/
+bin/
+*.exe
+
+# Веб-проекты
+.cache/
+.next/
+.nuxt/
+public/bundle_*.js
+# Файлы с паролями/ключами
+.env
+*.key
+*.pem
+config/secrets.yml
+
+# Пользовательские настройки
+*.local
+settings.local.*
+# VS Code
+.vscode/
+!.vscode/settings.json # исключение для настроек
+
+# IntelliJ/WebStorm
+.idea/
+*.iml
+*.iws
+
+# Vim
+*.swp
+*.swo
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
